@@ -226,6 +226,13 @@ hr {
   background-position: center;
 }
 
+.contact-note {
+  padding-left: 1.25rem;
+  color: #ffec82;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 .contacts-item:nth-child(1)::before {
   background-image: url("./assets/svg/discord.svg");
   background-size: 100%;
@@ -448,6 +455,16 @@ a:hover .rss-logo {
     background-color: #16232b;
   }
 
+  .open {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .close {
+    display: none;
+  }
+
   .nav-list li a {
     color: #ffffff;
   }
@@ -495,6 +512,10 @@ a:hover .rss-logo {
   }
 
   .contact:hover {
+    color: #37576b;
+  }
+
+  .contact-note {
     color: #37576b;
   }
 
