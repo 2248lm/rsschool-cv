@@ -455,6 +455,16 @@ a:hover .rss-logo {
     background-color: #16232b;
   }
 
+  .open {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .close {
+    display: none;
+  }
+
   .nav-list li a {
     color: #ffffff;
   }
